@@ -12,7 +12,8 @@
     "author": "",
     "license": "UNLICENSED",
     "dependencies": {
-        "express": "^4.13.4"
+        "express": "^4.13.4",
+        "nodemon": "^1.9.2"
     },
     "devDependencies": {
         "typings": "^1.0.2",
