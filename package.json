@@ -1,22 +1,24 @@
 {
-    "name": "express-ts",
-    "version": "0.0.1",
-    "description": "Express backend with TypeScript",
-    "main": "index.js",
-    "scripts": {
-        "setup": "npm install & typings install",
-        "start": "concurrent -k \"npm run ts\" \"npm run nodemon\"",
-        "ts": "tsc -w",
-        "nodemon": "nodemon ./index.js localhost 3000"
-    },
-    "author": "",
-    "license": "UNLICENSED",
-    "dependencies": {
-        "express": "^4.13.4",
-        "nodemon": "^1.9.2"
-    },
-    "devDependencies": {
-        "typings": "^1.0.2",
-        "concurrently": "^2.1.0"
-    }
+  "name": "express-ts",
+  "version": "0.0.1",
+  "description": "Express backend with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm install & typings install",
+    "start": "concurrent -k \"npm run ts\" \"npm run nodemon\"",
+    "ts": "tsc -w",
+    "nodemon": "nodemon ./index.js localhost 3000"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.13.4",
+    "nodemon": "^1.9.2"
+  },
+  "devDependencies": {
+    "concurrently": "^2.1.0",
+    "reload": "^0.7.0",
+    "supervisor": "^0.10.0",
+    "typings": "^1.0.2"
+  }
 }
