@@ -1,6 +1,8 @@
- {
+{
     "compilerOptions": {
-        "outFile": "index.js"
+        "target": "es5",
+        "removeComments": false,
+        "noImplicitAny": false
     },
     "exclude": [
         "node_modules"
