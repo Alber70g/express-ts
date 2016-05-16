@@ -1,0 +1,14 @@
+{
+  "name": "express-ts",
+  "version": "0.0.1",
+  "description": "Express backend with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "ts": "tsc -w"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "express": "^4.13.4"
+  }
+}
