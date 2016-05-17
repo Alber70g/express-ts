@@ -17,8 +17,6 @@
   },
   "devDependencies": {
     "concurrently": "^2.1.0",
-    "reload": "^0.7.0",
-    "supervisor": "^0.10.0",
     "typings": "^1.0.2"
   }
 }

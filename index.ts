@@ -14,5 +14,3 @@ app.listen(3000, function () {
 });
 
 const server = http.createServer();
-
-reload(server, app, 2000, 1000);
